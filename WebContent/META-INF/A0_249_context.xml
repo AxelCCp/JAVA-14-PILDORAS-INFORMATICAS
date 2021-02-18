@@ -1,0 +1,17 @@
+<Context>
+
+	<Resource name="jdbc/Productos" auth="Container" type="javax.sql.DataSource" 
+	
+			maxActive="15" maxIdle="3" maxWait="5000"
+			
+			userName="root" password=""
+			
+			driverClassName="com.mysql.jdbc.Driver"
+			
+			
+			url="jdbc:mysql://localhost:3306/pruebas">
+	
+	
+	</Resource>
+
+</Context>
